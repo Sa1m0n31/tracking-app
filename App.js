@@ -6,6 +6,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import BottomTabsNavigation from "./components/BottomTabsNavigation";
 import MapView from 'react-native-maps';
 import Geolocation from '@react-native-community/geolocation';
+import styled from 'styled-components'; // ten import powoduje błąd
 
 function App() {
     const [lat, setLat] = useState(37);
